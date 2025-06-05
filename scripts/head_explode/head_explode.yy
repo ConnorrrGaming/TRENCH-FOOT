@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"head_explode",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"head_explode",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

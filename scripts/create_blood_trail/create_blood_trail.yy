@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_blood_trail",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_blood_trail",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

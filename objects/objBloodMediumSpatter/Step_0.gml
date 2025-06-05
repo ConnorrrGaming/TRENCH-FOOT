@@ -1,0 +1,1 @@
+if global.blood_fade == true then object_phase_out(self,.001);

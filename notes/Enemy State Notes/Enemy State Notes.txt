@@ -1,0 +1,16 @@
+Proposed states of enemy (case sensitive):
+
+idle:			no movement from enemy, can be standing, sitting, smoking, eating, etc
+dead:			the end state of the enemy, no further actions can be committed by them
+patrol:			walking along pre-determined path
+wander:			aimlessly walking along random path, turning 90 degrees when bumping into walls
+suspicious:		walk towards target location (targets including areas where noise was detected for example)
+spotted:		aim / look towards declared target
+attack:			use whichever weapon they have equipped
+confused:		will stand still and look side to side for a few seconds, scratching head, before reverting to wandering
+wounded:		will fall to ground, rendering them defenceless
+suicide:		will pull out revolver and shoot themselves in the head
+
+
+States specified in code that have not been declared & defined will automatically revert to "idle" as a form of validation.
+

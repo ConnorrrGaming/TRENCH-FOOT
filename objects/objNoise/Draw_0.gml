@@ -1,0 +1,1 @@
+collision_circle(x,y,0,objEnemy,false,true);

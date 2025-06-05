@@ -1,0 +1,3 @@
+function npc_apprehensive(){
+
+}

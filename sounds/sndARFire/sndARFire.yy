@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sndARFire",
+  "audioGroupId":{
+    "name":"agSoundEffects",
+    "path":"audiogroups/agSoundEffects",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":0,
+  "conversionMode":0,
+  "duration":4.458503,
+  "name":"sndARFire",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndARFire.wav",
+  "type":1,
+  "volume":1.0,
+}

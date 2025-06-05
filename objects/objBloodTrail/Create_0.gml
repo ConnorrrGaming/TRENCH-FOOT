@@ -1,0 +1,1 @@
+image_blend = blood_colour_randomise(.5,.5);

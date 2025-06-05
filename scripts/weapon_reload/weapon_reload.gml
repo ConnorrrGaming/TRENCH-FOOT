@@ -1,0 +1,4 @@
+function weapon_reload()
+{
+	
+}

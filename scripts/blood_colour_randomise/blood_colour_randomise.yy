@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"blood_colour_randomise",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"blood_colour_randomise",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

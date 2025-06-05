@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"drop_weapon",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"drop_weapon",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

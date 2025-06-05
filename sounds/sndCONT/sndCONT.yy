@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sndCONT",
+  "audioGroupId":{
+    "name":"agVoices",
+    "path":"audiogroups/agVoices",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.467187,
+  "name":"sndCONT",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndCONT.wav",
+  "type":0,
+  "volume":1.0,
+}

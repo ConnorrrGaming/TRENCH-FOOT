@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sndDeathPlaceholder4",
+  "audioGroupId":{
+    "name":"agVoices",
+    "path":"audiogroups/agVoices",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.037324,
+  "name":"sndDeathPlaceholder4",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndDeathPlaceholder4.wav",
+  "type":1,
+  "volume":1.0,
+}
