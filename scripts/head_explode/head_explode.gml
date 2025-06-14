@@ -1,4 +1,4 @@
-function head_explode(min_brain_speed,max_brain_speed,brain_amount,brain_direction,brain_min_spread,brain_max_spread)
+function head_explode(min_brain_speed,max_brain_speed,brain_amount,brain_direction,brain_min_spread,brain_max_spread,attacker)
 {
 	for (var i = 0; i < brain_amount-1; i++)
 	{
@@ -18,5 +18,10 @@ function head_explode(min_brain_speed,max_brain_speed,brain_amount,brain_directi
 		{
 		sprite_index = sprEnemyDeadShotgunHeadshot;
 		}
+	}
+	
+	if attacker.head_explody == false
+	{
+		sprite_index = sprEnemyDeadLightWeaponHeadshot;
 	}
 }

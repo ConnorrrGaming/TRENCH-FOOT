@@ -15,7 +15,7 @@ function init_weapon_system()
 	w_f_revolver[12] = revolver_fire_sprite;	// attack sprite
 	w_f_revolver[13] = revolver_reload_sprite;	// reload sprite
 	w_f_revolver[14] = false;					// can explode heads?
-	w_f_revolver[15] = undefined;				// distance to cause head explosions
+	w_f_revolver[15] = 60;						// distance to cause head explosions
 	w_f_revolver[16] = sndRevolverFire;			// weapon sound
 	w_f_revolver[17] = bullet;					// bullet type
 	w_f_revolver[18] = 100;						// noise level
