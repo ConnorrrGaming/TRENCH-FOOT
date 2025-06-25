@@ -14,4 +14,6 @@ var destroy_head = function()
 destroy_head_ts = time_source_create(time_source_global,10,time_source_units_seconds,destroy_head,[],1,time_source_expire_after);
 time_source_start(destroy_head_ts);
 
+array_push(time_source_list,destroy_head_ts);
+
 blood_image_index = 0;

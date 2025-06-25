@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.359093,
+  "duration":0.35909298,
   "name":"sndDamage2",
   "parent":{
     "name":"Sounds",

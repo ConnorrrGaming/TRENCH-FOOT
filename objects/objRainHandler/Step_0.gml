@@ -18,11 +18,11 @@ try
 	global.rain_boundary_centre_x = (camera_centre_x);
 	global.rain_boundary_centre_y = (camera_centre_y);
 	
-	
-	if (instance_number(objRain) < rain_amount)
+	if instance_number(objRain) < rain_amount
 	{
 		rain_handler(objRain,irandom_range(camera_x-rain_boundary_offset,camera_x+camera_width),irandom_range(camera_y-rain_boundary_offset,camera_y+camera_height),5,rain_colour);
 	}
+
 }
 catch(_exception)
 {

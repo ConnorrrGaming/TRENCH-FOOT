@@ -60,6 +60,19 @@ try
 			y = y + sign(move_y); }
 		move_y = 0; }
 	y = y + move_y;
+	
+	
+	if place_meeting(x,y,objHazardCollision)
+	{
+		with (torso)
+		{
+			if dead == false
+			{
+				damage_sound = irandom_range(sndDamage1,sndDamage4);
+				take_damage(1,1,true,objHazardCollision,damage_sound,objHazardCollision);
+			}
+		}		
+	}
 }
 catch(_exception)
 {

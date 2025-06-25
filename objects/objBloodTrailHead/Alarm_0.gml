@@ -1,2 +1,2 @@
-blood_spatter(self.direction,blood_image_index,0,sprBloodTrailHead,false)
-alarm[0] = .05 * room_speed;
+blood_spatter(self.direction,blood_image_index,0,sprBloodTrailHead,.2,true)
+alarm[0] = .08 * room_speed;

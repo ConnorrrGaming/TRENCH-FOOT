@@ -6,4 +6,3 @@ direction = direction + blood_path;
 image_angle = direction;
 
 
-array_push(time_source_list,destroy_head_ts);

@@ -1,3 +1,5 @@
+slow_object(self,knockback_slowdown_amount,.5,false);
+
 if dead == false
 {
 	animation_handler();
@@ -43,17 +45,13 @@ if dead == false
 		path_end();
 		instance_destroy(objPlayerLegs);
 	}
-	
-	
 }
 
 else
 // what the player will do once it's fucking dead
 {
-	slow_object(self,knockback_slowdown_amount,.5,true);
+	damage_overlay.image_alpha = (damage_taken / damage_taken_max);
 }
-
-damage_overlay.image_alpha = (damage_taken / damage_taken_max);
 
 if damage_taken > 50 && damage_overlay.visible == false
 {
@@ -64,3 +62,5 @@ else if damage_overlay.visible == true && damage_overlay.image_alpha == 0
 	damage_overlay.visible = false;
 }
 
+
+show_debug_message("Player Speed: "+string(self.speed))

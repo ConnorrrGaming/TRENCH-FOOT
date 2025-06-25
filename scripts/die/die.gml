@@ -25,70 +25,77 @@ function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood
 			if spurting == true blood_spurt(direction-blood_spurt_direction,irandom_range(4,15),-10,10,x,y);
 		}
 			
-		if (death_cause == "objBullet" || death_cause == "objEnemyBullet") && distance_to_object(attacker) <= attacker.head_explode_dist
+		with(self)
 		{
-			if attacker.head_explody == true 
+			if (death_cause == "objBullet" || death_cause == "objEnemyBullet") && distance_to_object(attacker) <= attacker.head_explode_dist
 			{
-				switch(death_type)
+				if attacker.head_explody == true 
+				{
+					switch(death_type)
+					{
+						case 0:
+							head_explode(5,10,irandom_range(8,15),point_direction(x,y,attacker.x,attacker.y)-180,-85,85,attacker);
+							death_sfx = undefined;
+						break;
+				
+						case 1:
+							limb_decapitation(sprEnemyGibArm,true,false,true,0,10,self.direction-145,sprEnemyDeadShotgunDecapArm);
+							blood_spurt_direction = 270;
+						break;
+					}
+				}
+				else
+				{
+					switch(death_type)
+					{
+						case 0:
+							head_explode(5,10,irandom_range(1,3),point_direction(x,y,attacker.x,attacker.y)-180,-85,85,attacker);
+							light_head_explode = true;
+							death_sfx = undefined;
+						break;
+					
+						case 1:
+							set_death_sprite(death_sprite,0);
+						break;
+					}
+				
+				}
+				var sprite_frames = sprite_get_number(self.sprite_index) * (room_speed / sprite_get_speed(self.sprite_index));
+				spurtage = time_source_create(time_source_global,blood_spurt_delay,time_source_units_frames,burt,[blood_spurt_direction],sprite_frames+12,time_source_expire_after);
+				array_push(time_source_list,spurtage);
+				if light_head_explode != true then time_source_start(spurtage);
+			}
+			else if (death_cause == "objKnifeHitbox" || death_cause == "objEnemyKnifeHitbox")
+			{
+				switch(irandom_range(0,1))
 				{
 					case 0:
-						head_explode(5,10,irandom_range(8,15),point_direction(x,y,attacker.x,attacker.y)-180,-85,85,attacker);
-						death_sfx = undefined;
+						limb_decapitation(sprEnemyHead,true,true,false,0,5,self.direction-180,sprEnemyDeadHeadDecap);
+						blood_spurt_direction = 0;
+						var sprite_frames = sprite_get_number(self.sprite_index);
+						spurtage = time_source_create(time_source_global,blood_spurt_delay,time_source_units_frames,burt,[blood_spurt_direction],sprite_frames+blood_amount,time_source_expire_after);
+						time_source_start(spurtage);
+						array_push(time_source_list,spurtage);
 					break;
-				
 					case 1:
-						limb_decapitation(sprEnemyGibArm,true,false,true,0,10,self.direction-145,sprEnemyDeadShotgunDecapArm);
-						blood_spurt_direction = 270;
+						set_death_sprite(sprEnemyDeadSlashed,0);
+						repeat(10)blood_spurt(irandom_range(0,359),irandom_range(4,6),-4,4,x,y);
 					break;
 				}
+			}
+			else if explosion_death == true
+			{
+				set_death_sprite(sprEnemyDeadExplosion,0);
+				show_debug_message("Enemy Health: " +string(self.hlth));
+				repeat(35)blood_spurt(irandom_range(0,359),irandom_range(4,10),-2,2,x,y);
 			}
 			else
 			{
-				switch(death_type)
-				{
-					case 0:
-						head_explode(5,10,irandom_range(1,3),point_direction(x,y,attacker.x,attacker.y)-180,-85,85,attacker);
-						light_head_explode = true;
-						death_sfx = undefined;
-					break;
-					
-					case 1:
-						set_death_sprite(death_sprite,0);
-					break;
-				}
-				
+				set_death_sprite(death_sprite,0);
 			}
-			var sprite_frames = sprite_get_number(self.sprite_index) * (room_speed / sprite_get_speed(self.sprite_index));
-			spurtage = time_source_create(time_source_global,blood_spurt_delay,time_source_units_frames,burt,[blood_spurt_direction],sprite_frames+12,time_source_expire_after);
-			if light_head_explode != true then time_source_start(spurtage);
+		
 		}
-		else if (death_cause == "objKnifeHitbox" || death_cause == "objEnemyKnifeHitbox")
-		{
-			switch(irandom_range(0,1))
-			{
-				case 0:
-					limb_decapitation(sprEnemyHead,true,true,false,0,5,self.direction-180,sprEnemyDeadHeadDecap);
-					blood_spurt_direction = 0;
-					var sprite_frames = sprite_get_number(self.sprite_index);
-					spurtage = time_source_create(time_source_global,blood_spurt_delay,time_source_units_frames,burt,[blood_spurt_direction],sprite_frames+blood_amount,time_source_expire_after);
-					time_source_start(spurtage);
-				break;
-				case 1:
-					set_death_sprite(sprEnemyDeadSlashed,0);
-					repeat(10)blood_spurt(irandom_range(0,359),irandom_range(4,6),-4,4,x,y);
-				break;
-			}
-		}
-		else if explosion_death == true
-		{
-			set_death_sprite(sprEnemyDeadExplosion,0);
-			show_debug_message("Enemy Health: " +string(self.hlth));
-			repeat(35)blood_spurt(irandom_range(0,359),irandom_range(4,10),-2,2,x,y);
-		}
-		else
-		{
-			set_death_sprite(death_sprite,0);
-		}
+		
 		if explosion_death == false 
 		{
 			if self.state == EnemyState.CHASE || light_head_explode == true
@@ -97,7 +104,7 @@ function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood
 			}
 			else
 			{
-				knockback((damage_inflicted_mult/1.75),direction,5,undefined);
+				knockback((0),direction,5,undefined);
 			}
 		}
 		show_debug_message("Attacker Distance: "+string(distance_to_object(attacker))+" pixels.")
@@ -111,5 +118,5 @@ function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood
 	if death_sfx != undefined then audio_play_sound(death_sfx,10,false);
 	dead = true;
 	
-	//destroy_time_source_list(time_source_list);
+	destroy_time_source_list(self.time_source_list);
 }

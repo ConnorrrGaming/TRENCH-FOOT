@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.362426,
+  "duration":1.3624263,
   "name":"sndRevolverFire",
   "parent":{
     "name":"Sounds",

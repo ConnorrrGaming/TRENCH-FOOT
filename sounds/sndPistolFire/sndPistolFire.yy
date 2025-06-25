@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.431723,
+  "duration":2.4317234,
   "name":"sndPistolFire",
   "parent":{
     "name":"Sounds",
