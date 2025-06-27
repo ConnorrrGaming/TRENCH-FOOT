@@ -1,5 +1,5 @@
 # TRENCH FOOT
-## Where men go to die
+## Where good men go to die
 
 ## Notes:
 This repository contains the work-in-progress, actively worked on source code for BLOODBATH GAMES's upcoming survival / psychological horror action game, TRENCH FOOT.
