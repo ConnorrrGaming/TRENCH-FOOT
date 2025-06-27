@@ -1,4 +1,5 @@
-slow_object(self,knockback_slowdown_amount,.5,false);
+slow_object(self,knockback_slowdown_amount,.5,true);
+
 
 if dead == false
 {
@@ -41,10 +42,13 @@ if dead == false
 
 	if hlth <= 0 && dead == false
 	{
-		die(direction,1,1,sprEnemyDead,objPlayer,40,death_sound,damage_sound);
+		image_index = 0;
+		image_speed = 1;
+		die(direction,1,1,sprEnemyDead,objEnemy,40,death_sound,damage_sound);
 		path_end();
 		instance_destroy(objPlayerLegs);
 	}
+	
 }
 
 else

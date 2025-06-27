@@ -104,7 +104,7 @@ function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood
 			}
 			else
 			{
-				knockback((0),direction,5,undefined);
+				knockback((damage_inflicted_mult/2.5),direction,5,undefined);
 			}
 		}
 		show_debug_message("Attacker Distance: "+string(distance_to_object(attacker))+" pixels.")

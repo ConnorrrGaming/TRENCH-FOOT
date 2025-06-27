@@ -8,13 +8,16 @@ function npc_spotted()
 		{
 			state = EnemyState.ATTACKING;
 		}
-		attack = time_source_create(time_source_global,reaction_time,time_source_units_seconds,attack_mode,[],2,time_source_expire_after);
+		if objPlayer.dead == false 
+		{
+			attack = time_source_create(time_source_global,reaction_time,time_source_units_seconds,attack_mode,[],2,time_source_expire_after);
 			
-		time_source_start(attack);
+			time_source_start(attack);
 				
-		array_push(time_source_list,attack);
+			array_push(time_source_list,attack);
 		
-		spotted = true;
+			spotted = true;
+		}
 	}
 
 	rotate_to_point(x,y,target.x,target.y,.2);

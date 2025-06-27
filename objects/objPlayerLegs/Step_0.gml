@@ -64,6 +64,7 @@ try
 	
 	if place_meeting(x,y,objHazardCollision)
 	{
+		
 		with (torso)
 		{
 			if dead == false

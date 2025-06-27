@@ -3,6 +3,6 @@ slow_object(self,10,2,false);
 
 if speed <= 2
 {
-	blood_spatter(self.image_angle,self.image_index,0,sprBloodSplatter,1,true);
+	blood_spatter(self.image_angle,self.image_index,0,sprBloodSplatter,.7,true);
 	instance_destroy(self);
 }
