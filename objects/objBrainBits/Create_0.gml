@@ -1,0 +1,1 @@
+replace_with_surface(global.blood_surface,self.sprite_index,self.image_index,self.image_angle,c_white,self.image_alpha,true);

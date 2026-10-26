@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"target_facing_away",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"target_facing_away",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,1 +1,1 @@
-if grenade_cooking == true create_explosion(sprGrenadeExplosion,20,0,100);
+if grenade_cooking == true create_explosion(sprGrenadeExplosion,20,0,100,sndExplosionClose,5);

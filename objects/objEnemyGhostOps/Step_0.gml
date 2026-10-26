@@ -1,0 +1,1 @@
+enemy_ghost_ops_ai();

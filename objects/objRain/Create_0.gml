@@ -5,3 +5,4 @@ image_angle = direction;
 
 rain_shade = 1;
 
+hit_roof = false;

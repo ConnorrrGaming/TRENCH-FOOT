@@ -17,7 +17,7 @@ function player_init()
 
 	current_weapon = 0;
 	
-	init_weapon_system();
+	//init_weapon_system();
 	
 	update_weapon_attributes();
 	

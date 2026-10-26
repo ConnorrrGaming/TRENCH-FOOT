@@ -1,1 +1,1 @@
-game_restart();
+if live >= 0 pause_game();

@@ -1,0 +1,1 @@
+send_to_hud_queue("This is a fucking test.")

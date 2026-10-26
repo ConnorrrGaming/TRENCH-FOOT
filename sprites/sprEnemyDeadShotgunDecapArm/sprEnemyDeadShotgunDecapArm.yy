@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sprEnemyDeadShotgunDecapArm",
   "bboxMode":0,
   "bbox_bottom":22,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"304f96f0-66fc-4714-8c37-9c278cb22e5c","name":"304f96f0-66fc-4714-8c37-9c278cb22e5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3b0f449b-48a2-4526-8a93-8132e68b197a","name":"3b0f449b-48a2-4526-8a93-8132e68b197a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"869bf360-f0d3-4c8d-ba84-6794067fbbf5","name":"869bf360-f0d3-4c8d-ba84-6794067fbbf5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b273b76b-210c-4117-9ac7-71b697adda57","name":"b273b76b-210c-4117-9ac7-71b697adda57","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4368a5a4-4cc5-4aa2-9102-580fd8043ec2","name":"4368a5a4-4cc5-4aa2-9102-580fd8043ec2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"258c26df-2357-4c2b-a47f-55d3abc7a005","name":"258c26df-2357-4c2b-a47f-55d3abc7a005","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"304f96f0-66fc-4714-8c37-9c278cb22e5c","name":"304f96f0-66fc-4714-8c37-9c278cb22e5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3b0f449b-48a2-4526-8a93-8132e68b197a","name":"3b0f449b-48a2-4526-8a93-8132e68b197a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"869bf360-f0d3-4c8d-ba84-6794067fbbf5","name":"869bf360-f0d3-4c8d-ba84-6794067fbbf5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b273b76b-210c-4117-9ac7-71b697adda57","name":"b273b76b-210c-4117-9ac7-71b697adda57","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4368a5a4-4cc5-4aa2-9102-580fd8043ec2","name":"4368a5a4-4cc5-4aa2-9102-580fd8043ec2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"258c26df-2357-4c2b-a47f-55d3abc7a005","name":"258c26df-2357-4c2b-a47f-55d3abc7a005","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,24 +73,12 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"304f96f0-66fc-4714-8c37-9c278cb22e5c","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"54d92553-0c2e-46ff-b5de-c580a82e5ed9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3b0f449b-48a2-4526-8a93-8132e68b197a","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dcb46d7d-8e19-462f-a6de-ae120f0cfb28","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"869bf360-f0d3-4c8d-ba84-6794067fbbf5","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d71174d4-7fae-468d-8735-cb52185d0079","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b273b76b-210c-4117-9ac7-71b697adda57","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"30e80ebf-2c10-4aec-8df2-5fea3f660664","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4368a5a4-4cc5-4aa2-9102-580fd8043ec2","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ad32ef68-404b-4c7c-9a23-5c6dcd7abeec","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"258c26df-2357-4c2b-a47f-55d3abc7a005","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"58d647f9-e6b4-4f62-91a2-470f09799d28","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"304f96f0-66fc-4714-8c37-9c278cb22e5c","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"54d92553-0c2e-46ff-b5de-c580a82e5ed9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3b0f449b-48a2-4526-8a93-8132e68b197a","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dcb46d7d-8e19-462f-a6de-ae120f0cfb28","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"869bf360-f0d3-4c8d-ba84-6794067fbbf5","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d71174d4-7fae-468d-8735-cb52185d0079","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b273b76b-210c-4117-9ac7-71b697adda57","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"30e80ebf-2c10-4aec-8df2-5fea3f660664","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4368a5a4-4cc5-4aa2-9102-580fd8043ec2","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ad32ef68-404b-4c7c-9a23-5c6dcd7abeec","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"258c26df-2357-4c2b-a47f-55d3abc7a005","path":"sprites/sprEnemyDeadShotgunDecapArm/sprEnemyDeadShotgunDecapArm.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"58d647f9-e6b4-4f62-91a2-470f09799d28","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

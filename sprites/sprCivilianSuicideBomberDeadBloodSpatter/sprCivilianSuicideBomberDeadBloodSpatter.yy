@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sprCivilianSuicideBomberDeadBloodSpatter",
   "bboxMode":0,
   "bbox_bottom":197,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ccdc410a-bcb2-4069-8746-d928cd47d80e","name":"ccdc410a-bcb2-4069-8746-d928cd47d80e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"469f1679-4cde-4856-a481-edb47fae5322","name":"469f1679-4cde-4856-a481-edb47fae5322","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f380667c-1acb-4339-aa71-e4bab0e3c029","name":"f380667c-1acb-4339-aa71-e4bab0e3c029","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ccdc410a-bcb2-4069-8746-d928cd47d80e","name":"ccdc410a-bcb2-4069-8746-d928cd47d80e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"469f1679-4cde-4856-a481-edb47fae5322","name":"469f1679-4cde-4856-a481-edb47fae5322","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f380667c-1acb-4339-aa71-e4bab0e3c029","name":"f380667c-1acb-4339-aa71-e4bab0e3c029","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,15 +70,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccdc410a-bcb2-4069-8746-d928cd47d80e","path":"sprites/sprCivilianSuicideBomberDeadBloodSpatter/sprCivilianSuicideBomberDeadBloodSpatter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7a873181-2cf9-4804-8cd4-cb4c7af253c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"469f1679-4cde-4856-a481-edb47fae5322","path":"sprites/sprCivilianSuicideBomberDeadBloodSpatter/sprCivilianSuicideBomberDeadBloodSpatter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d6c16ecf-d812-42dd-96ab-e75e714f1731","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f380667c-1acb-4339-aa71-e4bab0e3c029","path":"sprites/sprCivilianSuicideBomberDeadBloodSpatter/sprCivilianSuicideBomberDeadBloodSpatter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b75f6a88-0ddb-4483-9fce-c40d43872905","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccdc410a-bcb2-4069-8746-d928cd47d80e","path":"sprites/sprCivilianSuicideBomberDeadBloodSpatter/sprCivilianSuicideBomberDeadBloodSpatter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7a873181-2cf9-4804-8cd4-cb4c7af253c9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"469f1679-4cde-4856-a481-edb47fae5322","path":"sprites/sprCivilianSuicideBomberDeadBloodSpatter/sprCivilianSuicideBomberDeadBloodSpatter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d6c16ecf-d812-42dd-96ab-e75e714f1731","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f380667c-1acb-4339-aa71-e4bab0e3c029","path":"sprites/sprCivilianSuicideBomberDeadBloodSpatter/sprCivilianSuicideBomberDeadBloodSpatter.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b75f6a88-0ddb-4483-9fce-c40d43872905","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

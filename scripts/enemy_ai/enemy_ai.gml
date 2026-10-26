@@ -4,9 +4,12 @@
 
 function enemy_ai()
 {
-	slow_object(self,knockback_slowdown_amount,.5,true);
+
+	slow_object(self,knockback_slowdown_amount,.5,true,true,knockback_noise);
 	
-	if dead == false
+	//show_debug_message("Rigor mortis: "+string(rigor_mortis));
+	
+	if dead == false && wounded == false
 	{	
 		switch(state)
 		{
@@ -64,7 +67,7 @@ function enemy_ai()
 
 		if hlth <= 0 && dead == false
 		{
-			die(point_direction(x,y,objPlayer.x,objPlayer.y),1,1,sprEnemyDead,objPlayer,12,death_sound,damage_sound);
+			die(point_direction(x,y,objPlayer.x,objPlayer.y),1,1,main_death_sprite,objPlayer,12,death_sound,damage_sound);
 			path_end();
 		}
 	

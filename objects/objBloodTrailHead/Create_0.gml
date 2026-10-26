@@ -1,3 +1,5 @@
+image_xscale = .75;
+image_yscale = .75;
 alarm[0] = .1 * room_speed;
 alarm[1] = 3 * room_speed;
 image_speed = 0;

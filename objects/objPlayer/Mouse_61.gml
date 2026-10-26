@@ -1,2 +1,5 @@
-player_decrement_weapon();
-update_weapon_attributes();
+if reloading == false && dead == false
+{
+	decrement_weapon();
+	update_weapon_attributes();
+}

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sprCivilianSuicideBomberDeadPieces",
   "bboxMode":0,
   "bbox_bottom":20,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ee583cea-025a-48b5-806f-2b1bbf5948fc","name":"ee583cea-025a-48b5-806f-2b1bbf5948fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c522eebc-28de-4a43-90d1-1a8fe6bf80bf","name":"c522eebc-28de-4a43-90d1-1a8fe6bf80bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7e73ed6d-e07f-4dcc-b2c8-888b142ec99f","name":"7e73ed6d-e07f-4dcc-b2c8-888b142ec99f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ee583cea-025a-48b5-806f-2b1bbf5948fc","name":"ee583cea-025a-48b5-806f-2b1bbf5948fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c522eebc-28de-4a43-90d1-1a8fe6bf80bf","name":"c522eebc-28de-4a43-90d1-1a8fe6bf80bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7e73ed6d-e07f-4dcc-b2c8-888b142ec99f","name":"7e73ed6d-e07f-4dcc-b2c8-888b142ec99f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,15 +70,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ee583cea-025a-48b5-806f-2b1bbf5948fc","path":"sprites/sprCivilianSuicideBomberDeadPieces/sprCivilianSuicideBomberDeadPieces.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f3b17a3a-80c8-427c-83b6-777e206cf98c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c522eebc-28de-4a43-90d1-1a8fe6bf80bf","path":"sprites/sprCivilianSuicideBomberDeadPieces/sprCivilianSuicideBomberDeadPieces.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"18594fa3-b8ec-4685-b5a9-70b7edae4254","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e73ed6d-e07f-4dcc-b2c8-888b142ec99f","path":"sprites/sprCivilianSuicideBomberDeadPieces/sprCivilianSuicideBomberDeadPieces.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b8abbdcb-9e19-471b-985d-b8eccbc0413b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ee583cea-025a-48b5-806f-2b1bbf5948fc","path":"sprites/sprCivilianSuicideBomberDeadPieces/sprCivilianSuicideBomberDeadPieces.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f3b17a3a-80c8-427c-83b6-777e206cf98c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c522eebc-28de-4a43-90d1-1a8fe6bf80bf","path":"sprites/sprCivilianSuicideBomberDeadPieces/sprCivilianSuicideBomberDeadPieces.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"18594fa3-b8ec-4685-b5a9-70b7edae4254","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e73ed6d-e07f-4dcc-b2c8-888b142ec99f","path":"sprites/sprCivilianSuicideBomberDeadPieces/sprCivilianSuicideBomberDeadPieces.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b8abbdcb-9e19-471b-985d-b8eccbc0413b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

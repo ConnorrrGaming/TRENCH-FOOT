@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sndGameOverSound",
+  "audioGroupId":{
+    "name":"agMusic",
+    "path":"audiogroups/agMusic",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":13.741043,
+  "exportDir":"",
+  "name":"sndGameOverSound",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":22050,
+  "soundFile":"sndGameOverSound.wav",
+  "volume":1.0,
+}

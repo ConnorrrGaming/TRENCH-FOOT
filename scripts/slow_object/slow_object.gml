@@ -1,8 +1,12 @@
-function slow_object(target,amount,speed_cutoff_point,death)
+function slow_object(target,amount,speed_cutoff_point,death,make_noise,noise_amount)
 {
 	if target.speed > 0 
 	{
 		target.speed -= (target.speed / amount);
+		if make_noise == true
+		{
+			create_noise(noise_amount,objEnemy);
+		}
 	}
 	if target.speed < speed_cutoff_point
 	{
@@ -26,6 +30,6 @@ function slow_object(target,amount,speed_cutoff_point,death)
 	}
 	catch(_exception)
 	{
-		//show_debug_message("Seems like this object isn't a living creature, and therefore cannot die :)")
+		////("Seems like this object isn't a living creature, and therefore cannot die :)")
 	}
 }

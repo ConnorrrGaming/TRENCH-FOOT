@@ -7,7 +7,6 @@
   "managed":true,
   "name":"objEnemyCommander",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"current_weapon","path":"objects/objEnemy/objEnemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"revolver_walk_sprite","path":"objects/objEnemy/objEnemy.yy",},"resource":{"name":"sprEnemyCommanderWalkArmedRevolver","path":"sprites/sprEnemyCommanderWalkArmedRevolver/sprEnemyCommanderWalkArmedRevolver.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyCommanderWalkArmedRevolver",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"revolver_fire_sprite","path":"objects/objEnemy/objEnemy.yy",},"resource":{"name":"sprEnemyCommanderAttackRevolver","path":"sprites/sprEnemyCommanderAttackRevolver/sprEnemyCommanderAttackRevolver.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyCommanderAttackRevolver",},
   ],
@@ -35,7 +34,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"sprEnemyCommanderWalkArmedRevolver",
     "path":"sprites/sprEnemyCommanderWalkArmedRevolver/sprEnemyCommanderWalkArmedRevolver.yy",

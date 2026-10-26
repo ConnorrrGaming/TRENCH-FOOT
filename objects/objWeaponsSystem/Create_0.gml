@@ -1,1 +1,0 @@
-init_weapon_system();

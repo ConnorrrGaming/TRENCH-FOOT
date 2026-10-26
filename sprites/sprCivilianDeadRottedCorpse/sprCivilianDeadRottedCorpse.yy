@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sprCivilianDeadRottedCorpse",
   "bboxMode":0,
   "bbox_bottom":25,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bc22791c-b499-4391-b81d-fcf14c283837","name":"bc22791c-b499-4391-b81d-fcf14c283837","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3b53b57e-ace7-4e7e-8f41-56b280885a93","name":"3b53b57e-ace7-4e7e-8f41-56b280885a93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3cb554e6-2d40-42dd-a687-fbca6f7f7e83","name":"3cb554e6-2d40-42dd-a687-fbca6f7f7e83","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f314e458-1c85-4642-81a7-5dd6fe667025","name":"f314e458-1c85-4642-81a7-5dd6fe667025","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8d0b3f8c-e9c1-4e86-a952-c663cd18273e","name":"8d0b3f8c-e9c1-4e86-a952-c663cd18273e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bc22791c-b499-4391-b81d-fcf14c283837","name":"bc22791c-b499-4391-b81d-fcf14c283837","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3b53b57e-ace7-4e7e-8f41-56b280885a93","name":"3b53b57e-ace7-4e7e-8f41-56b280885a93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3cb554e6-2d40-42dd-a687-fbca6f7f7e83","name":"3cb554e6-2d40-42dd-a687-fbca6f7f7e83","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f314e458-1c85-4642-81a7-5dd6fe667025","name":"f314e458-1c85-4642-81a7-5dd6fe667025","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8d0b3f8c-e9c1-4e86-a952-c663cd18273e","name":"8d0b3f8c-e9c1-4e86-a952-c663cd18273e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -67,26 +67,18 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":32.0,
+    "seqWidth":32.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc22791c-b499-4391-b81d-fcf14c283837","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"de31ca13-314d-4c15-baf5-9aebeb59f29b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3b53b57e-ace7-4e7e-8f41-56b280885a93","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"39859dc3-b653-43db-9161-efe0f38cc688","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3cb554e6-2d40-42dd-a687-fbca6f7f7e83","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e85cd8d1-2b3e-4d5e-bd14-d1cb004201f5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f314e458-1c85-4642-81a7-5dd6fe667025","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"47636d05-211a-4763-a2ef-9c9356899714","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d0b3f8c-e9c1-4e86-a952-c663cd18273e","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ebb9882f-d7ea-425c-bfb5-c703fe2fd5e4","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc22791c-b499-4391-b81d-fcf14c283837","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"de31ca13-314d-4c15-baf5-9aebeb59f29b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3b53b57e-ace7-4e7e-8f41-56b280885a93","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"39859dc3-b653-43db-9161-efe0f38cc688","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3cb554e6-2d40-42dd-a687-fbca6f7f7e83","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e85cd8d1-2b3e-4d5e-bd14-d1cb004201f5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f314e458-1c85-4642-81a7-5dd6fe667025","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"47636d05-211a-4763-a2ef-9c9356899714","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d0b3f8c-e9c1-4e86-a952-c663cd18273e","path":"sprites/sprCivilianDeadRottedCorpse/sprCivilianDeadRottedCorpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ebb9882f-d7ea-425c-bfb5-c703fe2fd5e4","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

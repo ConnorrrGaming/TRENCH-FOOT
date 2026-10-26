@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"sndDeathPlaceholder1",
   "audioGroupId":{
     "name":"agVoices",
     "path":"audiogroups/agVoices",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.255692,
+  "duration":1.2556916,
+  "exportDir":"",
   "name":"sndDeathPlaceholder1",
   "parent":{
     "name":"Sounds",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sndDeathPlaceholder1.WAV",
-  "type":0,
   "volume":1.0,
 }

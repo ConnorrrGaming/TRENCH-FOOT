@@ -1,5 +1,6 @@
 function room_init()
 {
 	init_room_grid();
-	global.blood_surface = surface_create(room_width,room_height);
+	init_blood_surface();
+	global.safe_room = instance_exists(objSafeRoomMarker);
 }

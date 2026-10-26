@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hud_queue_clear",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hud_queue_clear",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

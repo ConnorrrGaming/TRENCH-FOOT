@@ -6,5 +6,5 @@ function blood_spurt(blood_direction,blood_speed,blood_min_spread,blood_max_spre
 	spurtage.speed = blood_speed;
 	spurtage.direction = (blood_direction + blood_spread);
 	spurtage.image_angle = spurtage.direction;
-	show_debug_message("Blood Spurtage in Progress");	
+	//("Blood Spurtage in Progress");	
 }

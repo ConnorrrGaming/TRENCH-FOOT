@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"take_damage_from_bullet",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"take_damage_from_bullet",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

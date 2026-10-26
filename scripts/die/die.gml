@@ -1,17 +1,17 @@
 function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood_amount,death_sfx,damage_sfx)
 {
-	
 	var light_head_explode = false;
+	
+	var weapon_from_dead = owned_weapons[0];
+	var weapon_sprite = self.pickup_sprite;
 	
 	if self.state == EnemyState.CHASE || light_head_explode = true
 	{
-		var blood_spurt_direction = 180;
 		var death_type = 0
 		image_index = 0;
 	}
 	else
 	{
-		var blood_spurt_direction = 0;
 		var death_type = irandom_range(0,1);
 		image_index = 0;
 		direction = _direction;
@@ -19,12 +19,7 @@ function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood
 	}
 
 	try
-	{
-		var burt = function(blood_spurt_direction)
-		{
-			if spurting == true blood_spurt(direction-blood_spurt_direction,irandom_range(4,15),-10,10,x,y);
-		}
-			
+	{		
 		with(self)
 		{
 			if (death_cause == "objBullet" || death_cause == "objEnemyBullet") && distance_to_object(attacker) <= attacker.head_explode_dist
@@ -34,13 +29,24 @@ function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood
 					switch(death_type)
 					{
 						case 0:
-							head_explode(5,10,irandom_range(8,15),point_direction(x,y,attacker.x,attacker.y)-180,-85,85,attacker);
+							npc_head_explode(sprHeadshotGibs,5,10,irandom_range(8,15),point_direction(x,y,attacker.x,attacker.y)-180,-85,85,attacker);
+							var artery = instance_create_layer(x,y,"Blood",objArtery);
+							artery.spurt_direction = self.direction - 180;
 							death_sfx = undefined;
 						break;
 				
 						case 1:
-							limb_decapitation(sprEnemyGibArm,true,false,true,0,10,self.direction-145,sprEnemyDeadShotgunDecapArm);
-							blood_spurt_direction = 270;
+							for(var i = 0; i < 8; i++)
+							{
+								var sg_dir = irandom_range(-90,90);
+								var sg_spd = irandom_range(2,10);
+								limb_decapitation(sprShotgunDisembowlGibs,false,false,true,i,sg_spd,(self.direction+sg_dir),undefined,true);
+							}
+							limb_decapitation(sprEnemyGibArm,true,false,true,0,10,self.direction-145,firearm_disembowl_death_sprite,true);
+							var artery = instance_create_layer(x,y,"Blood",objArtery);
+							artery.spurt_direction = self.direction - 90;
+							artery.x = self.x;
+							artery.y = self.y;
 						break;
 					}
 				}
@@ -49,7 +55,7 @@ function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood
 					switch(death_type)
 					{
 						case 0:
-							head_explode(5,10,irandom_range(1,3),point_direction(x,y,attacker.x,attacker.y)-180,-85,85,attacker);
+							npc_head_explode(sprHeadshotGibs,5,10,irandom_range(1,3),point_direction(x,y,attacker.x,attacker.y)-180,-85,85,attacker);
 							light_head_explode = true;
 							death_sfx = undefined;
 						break;
@@ -60,33 +66,38 @@ function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood
 					}
 				
 				}
-				var sprite_frames = sprite_get_number(self.sprite_index) * (room_speed / sprite_get_speed(self.sprite_index));
-				spurtage = time_source_create(time_source_global,blood_spurt_delay,time_source_units_frames,burt,[blood_spurt_direction],sprite_frames+12,time_source_expire_after);
-				array_push(time_source_list,spurtage);
-				if light_head_explode != true then time_source_start(spurtage);
 			}
 			else if (death_cause == "objKnifeHitbox" || death_cause == "objEnemyKnifeHitbox")
 			{
-				switch(irandom_range(0,1))
+				switch(irandom_range(0,2))
 				{
 					case 0:
-						limb_decapitation(sprEnemyHead,true,true,false,0,5,self.direction-180,sprEnemyDeadHeadDecap);
-						blood_spurt_direction = 0;
-						var sprite_frames = sprite_get_number(self.sprite_index);
-						spurtage = time_source_create(time_source_global,blood_spurt_delay,time_source_units_frames,burt,[blood_spurt_direction],sprite_frames+blood_amount,time_source_expire_after);
-						time_source_start(spurtage);
-						array_push(time_source_list,spurtage);
+						limb_decapitation(sprEnemyHead,true,true,false,0,5,self.direction-180,knife_head_decap_death_sprite,true);
+						var artery = instance_create_layer(x,y,"Blood",objArtery);
+						artery.spurt_direction = self.direction - 180;
 					break;
 					case 1:
-						set_death_sprite(sprEnemyDeadSlashed,0);
+						set_death_sprite(knife_main_death_sprite,0);
+						repeat(10)blood_spurt(irandom_range(0,359),irandom_range(4,6),-4,4,x,y);
+					break;
+					case 2:
+						image_index = 0;
+						sprite_index = knife_disembowl_death_sprite;
 						repeat(10)blood_spurt(irandom_range(0,359),irandom_range(4,6),-4,4,x,y);
 					break;
 				}
 			}
+			else if (death_cause == "objGlassShard")
+			{
+				image_index = 0;
+				sprite_index = glass_shard_death_sprite;
+				var artery = instance_create_layer(x,y,"Blood",objArtery);
+				artery.spurt_direction = self.direction;
+			}
 			else if explosion_death == true
 			{
-				set_death_sprite(sprEnemyDeadExplosion,0);
-				show_debug_message("Enemy Health: " +string(self.hlth));
+				set_death_sprite(explosion_main_death_sprite,0);
+				//("Enemy Health: " +string(self.hlth));
 				repeat(35)blood_spurt(irandom_range(0,359),irandom_range(4,10),-2,2,x,y);
 			}
 			else
@@ -107,16 +118,41 @@ function die(_direction,alarm_type,blood_spurt_delay,death_sprite,attacker,blood
 				knockback((damage_inflicted_mult/2.5),direction,5,undefined);
 			}
 		}
-		show_debug_message("Attacker Distance: "+string(distance_to_object(attacker))+" pixels.")
+		//("Attacker Distance: "+string(distance_to_object(attacker))+" pixels.")
 	}
 	catch(_exception)
 	{
 		show_debug_message("I AM ERROR!\n"+string(_exception));
 		set_death_sprite(death_sprite,0);
 	}
-	audio_stop_sound(damage_sfx);
-	if death_sfx != undefined then audio_play_sound(death_sfx,10,false);
-	dead = true;
 	
-	destroy_time_source_list(self.time_source_list);
+	var sprite_frames = sprite_get_number(self.sprite_index) * (room_speed / sprite_get_speed(self.sprite_index));
+	var rigor_mortis_timer = sprite_frames;
+	
+	if self.current_primary != undefined 
+	{
+		drop_weapon(current_primary,weapon_index[current_primary,weapon_stat.w_weapon_pickup_sprite]);
+		instance_destroy(primary_stored);
+	}
+	
+	if self.current_secondary != undefined 
+	{
+		drop_weapon(current_secondary,weapon_index[current_secondary,weapon_stat.w_weapon_pickup_sprite]);
+		instance_destroy(secondary_stored);
+	}
+	
+	drop_helmet(helmet_sprite,0,5,self.direction);
+	
+	audio_stop_sound(damage_sfx);
+	//if death_sfx != undefined then audio_play_sound(death_sfx,10,false);
+	alarm[11] = rigor_mortis_timer;
+	persistent = false;
+	solid = false;
+	dead = true;
+	hlth = 0;
+	
+	if instance_exists(light)
+	{
+		instance_destroy(light);
+	}
 }

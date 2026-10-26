@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sndDoorBreak",
+  "audioGroupId":{
+    "name":"agSoundEffects",
+    "path":"audiogroups/agSoundEffects",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.7005669,
+  "exportDir":"",
+  "name":"sndDoorBreak",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndDoorBreak.wav",
+  "volume":1.0,
+}

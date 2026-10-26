@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"sndMessage",
   "audioGroupId":{
     "name":"agSoundEffects",
     "path":"audiogroups/agSoundEffects",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.826542,
+  "duration":3.8265533,
+  "exportDir":"",
   "name":"sndMessage",
   "parent":{
     "name":"Sounds",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sndMessage.wav",
-  "type":0,
   "volume":1.0,
 }

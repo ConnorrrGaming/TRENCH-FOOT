@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sprPlayerWalkArmedShotgun",
   "bboxMode":2,
   "bbox_bottom":18,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8af3e94a-f335-4095-b8b4-64f34a3607ce","name":"8af3e94a-f335-4095-b8b4-64f34a3607ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4012f2a6-5664-4780-9ef8-8eb9a3f03167","name":"4012f2a6-5664-4780-9ef8-8eb9a3f03167","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"83f7cd25-312f-41b0-95e7-90b6256d54a8","name":"83f7cd25-312f-41b0-95e7-90b6256d54a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d2b47ed7-ab46-4a8a-82f1-b667a4105efe","name":"d2b47ed7-ab46-4a8a-82f1-b667a4105efe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8af3e94a-f335-4095-b8b4-64f34a3607ce","name":"8af3e94a-f335-4095-b8b4-64f34a3607ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4012f2a6-5664-4780-9ef8-8eb9a3f03167","name":"4012f2a6-5664-4780-9ef8-8eb9a3f03167","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83f7cd25-312f-41b0-95e7-90b6256d54a8","name":"83f7cd25-312f-41b0-95e7-90b6256d54a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d2b47ed7-ab46-4a8a-82f1-b667a4105efe","name":"d2b47ed7-ab46-4a8a-82f1-b667a4105efe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -66,23 +66,17 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":32.0,
+    "seqWidth":32.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8af3e94a-f335-4095-b8b4-64f34a3607ce","path":"sprites/sprPlayerWalkArmedShotgun/sprPlayerWalkArmedShotgun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8bf63d7d-2f72-4fdc-bd6a-d1b0806275f8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4012f2a6-5664-4780-9ef8-8eb9a3f03167","path":"sprites/sprPlayerWalkArmedShotgun/sprPlayerWalkArmedShotgun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"180cef8d-7923-4092-93f6-020fb95d0380","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"83f7cd25-312f-41b0-95e7-90b6256d54a8","path":"sprites/sprPlayerWalkArmedShotgun/sprPlayerWalkArmedShotgun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f023c6f2-9ac6-470a-a6fc-d74090296304","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d2b47ed7-ab46-4a8a-82f1-b667a4105efe","path":"sprites/sprPlayerWalkArmedShotgun/sprPlayerWalkArmedShotgun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6de11674-60bb-46bf-a67c-a36afe79487f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8af3e94a-f335-4095-b8b4-64f34a3607ce","path":"sprites/sprPlayerWalkArmedShotgun/sprPlayerWalkArmedShotgun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8bf63d7d-2f72-4fdc-bd6a-d1b0806275f8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4012f2a6-5664-4780-9ef8-8eb9a3f03167","path":"sprites/sprPlayerWalkArmedShotgun/sprPlayerWalkArmedShotgun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"180cef8d-7923-4092-93f6-020fb95d0380","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"83f7cd25-312f-41b0-95e7-90b6256d54a8","path":"sprites/sprPlayerWalkArmedShotgun/sprPlayerWalkArmedShotgun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f023c6f2-9ac6-470a-a6fc-d74090296304","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d2b47ed7-ab46-4a8a-82f1-b667a4105efe","path":"sprites/sprPlayerWalkArmedShotgun/sprPlayerWalkArmedShotgun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6de11674-60bb-46bf-a67c-a36afe79487f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"sndRain",
   "audioGroupId":{
     "name":"agSoundEffects",
     "path":"audiogroups/agSoundEffects",
   },
   "bitDepth":1,
-  "bitRate":512,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":10,
   "conversionMode":0,
   "duration":65.21739,
+  "exportDir":"",
   "name":"sndRain",
   "parent":{
     "name":"Sounds",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sndRain.wav",
-  "type":0,
   "volume":1.0,
 }

@@ -1,0 +1,1 @@
+create_explosion(sprGrenadeExplosion,10,0,100,sndExplosion,1);

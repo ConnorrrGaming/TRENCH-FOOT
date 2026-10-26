@@ -2,7 +2,7 @@ image_angle = shell_angle + (speed * 200);
 
 if speed != 0
 {
-	slow_object(self,8,.2,false);
+	slow_object(self,8,.2,false,false,0);
 }
 
 object_phase_out(self,.005);

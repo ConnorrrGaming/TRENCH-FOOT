@@ -5,12 +5,12 @@
   "managed":true,
   "name":"objEnemyBlackOps",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"current_weapon","path":"objects/objEnemy/objEnemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"reaction_time","path":"objects/objEnemy/objEnemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"reaction_time","path":"objects/objEnemy/objEnemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".2",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"chase_speed","path":"objects/objEnemy/objEnemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"ar_walk_sprite","path":"objects/objEnemy/objEnemy.yy",},"resource":{"name":"sprEnemyBlackOpsWalkArmedAR15","path":"sprites/sprEnemyBlackOpsWalkArmedAR15/sprEnemyBlackOpsWalkArmedAR15.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyBlackOpsWalkArmedAR15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"ar_fire_sprite","path":"objects/objEnemy/objEnemy.yy",},"resource":{"name":"sprEnemyBlackOpsAttackAR15","path":"sprites/sprEnemyBlackOpsAttackAR15/sprEnemyBlackOpsAttackAR15.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyBlackOpsAttackAR15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"ar_reload_sprite","path":"objects/objEnemy/objEnemy.yy",},"resource":{"name":"sprEnemyReload","path":"sprites/sprEnemyReload/sprEnemyReload.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprEnemyReload",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"propertyId":{"name":"hlth","path":"objects/objEnemy/objEnemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
   ],
   "parent":{
     "name":"Objects",
@@ -36,7 +36,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"sprEnemyBlackOpsWalkArmedAR15",
     "path":"sprites/sprEnemyBlackOpsWalkArmedAR15/sprEnemyBlackOpsWalkArmedAR15.yy",

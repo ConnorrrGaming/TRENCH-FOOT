@@ -1,0 +1,1 @@
+draw_sprite_ext(sprWeaponSelectionScreen,image_index,0,0,1,1,0,c_white,true);

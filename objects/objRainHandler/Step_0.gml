@@ -9,9 +9,6 @@ try
 	camera_centre_x = camera_x + (camera_width / 2);
 	camera_centre_y = camera_y + (camera_height / 2);
 	
-	show_debug_message(camera_x);
-	show_debug_message(camera_y);
-	
 	global.rain_boundary_x = view_xport[0] - rain_boundary_offset;
 	global.rain_boundary_y = view_yport[0] - rain_boundary_offset;
 	
@@ -20,13 +17,11 @@ try
 	
 	if instance_number(objRain) < rain_amount
 	{
-		rain_handler(objRain,irandom_range(camera_x-rain_boundary_offset,camera_x+camera_width),irandom_range(camera_y-rain_boundary_offset,camera_y+camera_height),5,rain_colour);
+		rain_handler(objRain,irandom_range(camera_x-rain_boundary_offset,camera_x+camera_width),irandom_range(camera_y-rain_boundary_offset,camera_y+camera_height),5,rain_colour,blood);
 	}
 
 }
 catch(_exception)
 {
-	// do sum shit son
-	show_debug_message("CONNOR YER SHIT DONT WORK");
-	show_debug_message("\n\n"+string(_exception));
+
 }

@@ -20,5 +20,5 @@ function npc_spotted()
 		}
 	}
 
-	rotate_to_point(x,y,target.x,target.y,.2);
+	rotate_to_point(x,y,target.x,target.y,.2,true);
 }

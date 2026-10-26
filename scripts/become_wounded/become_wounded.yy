@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"become_wounded",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"become_wounded",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

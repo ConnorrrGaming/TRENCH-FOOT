@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"pCinematicRoomTrans",
+  "closed":false,
+  "kind":1,
+  "name":"pCinematicRoomTrans",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":50.0,"x":237.0,"y":249.0,},
+    {"speed":75.0,"x":240.0,"y":245.0,},
+    {"speed":100.0,"x":241.96979,"y":243.0,},
+    {"speed":100.0,"x":244.17216,"y":243.0,},
+    {"speed":75.0,"x":246.0,"y":245.0,},
+    {"speed":50.0,"x":249.0,"y":249.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

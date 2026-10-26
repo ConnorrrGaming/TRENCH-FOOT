@@ -2,7 +2,8 @@ function npc_commander_alert()
 {
 	if self.alerted_others == false && self.dead == false
 	{
-		audio_play_sound(sndCONT,0,false);
+		audio_play_sound(sndAlert,0,false);
+		audio_sound_gain(sndAlert,8);
 		enemy_num = collision_circle_list(x,y,shout_range,objEnemy,true,true,enemy_list,false);
 		if enemy_num > 0
 		{

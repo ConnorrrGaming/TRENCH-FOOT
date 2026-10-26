@@ -1,11 +1,16 @@
 function enemy_init()
 {
 	dead = false;
+	wounded = false;
+	gibbed = false;
+	pleading = false;
+	rigor_mortis = false;
 	damage_inflicted_mult = 0;
 	path_started = false;
 	bled_out = false;
 	spurting = false;
 	knockback_slowdown_amount = 8;
+	knockback_noise = 50;
 	spotted = false;
 	sussy_level = 0; // i can't control my sussy level
 	seen = false;
@@ -16,6 +21,8 @@ function enemy_init()
 	explosion_death = false;
 	max_blood_spill = 15;
 
+
+	//current_weapon = 0;
 	bullet = objEnemyBullet;
 	sniper_bullet = objEnemySniperBullet;
 	knife_hitbox = objEnemyKnifeHitbox;
@@ -30,9 +37,21 @@ function enemy_init()
 	
 	alerted_others = false;
 	enemy_list = ds_list_create();
+	
+	swapped_weapon = false;
 
-	init_weapon_system();
+	create_ammo();
+	create_weapons();
+	owned_weapons = [];
+	
+	create_primary_stored_weapon();
+	create_secondary_stored_weapon();
+	
+	if current_primary != undefined primary_stored.image_alpha = owned_weapons[current_weapon] != current_primary;
+	if current_secondary != undefined secondary_stored.image_alpha = owned_weapons[current_weapon] != current_secondary;
+	
 	update_weapon_attributes();
+	
 
 	chase_path = path_add();
 
@@ -42,8 +61,7 @@ function enemy_init()
 	death_sound = sndDeathPlaceholder1;
 	damage_sound = undefined;
 
-	time_source_list = []
-
+	time_source_list = [];
 
 	enum EnemyState
 	{
@@ -61,6 +79,11 @@ function enemy_init()
 		DEAD
 	}
 
-	sprite_index = walk_sprite;
+	non_executable_states = [EnemyState.SPOTTED,EnemyState.CHASE,EnemyState.ATTACKING];
 
+	sprite_index = walk_sprite;
+	direction = image_angle;
+	
+	light = instance_create_layer(x,y,layer,objCharacterLight);
+	light.target = self;
 }

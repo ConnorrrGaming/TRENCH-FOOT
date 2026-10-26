@@ -1,7 +1,8 @@
 function enemy_commander_ai()
 {
-	slow_object(self,knockback_slowdown_amount,.5,true);
-	
+
+	slow_object(self,knockback_slowdown_amount,.5,true,true,knockback_noise);
+
 	if dead == false
 	{	
 		switch(state)

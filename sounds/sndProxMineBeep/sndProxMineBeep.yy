@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sndProxMineBeep",
+  "audioGroupId":{
+    "name":"agSoundEffects",
+    "path":"audiogroups/agSoundEffects",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.45090702,
+  "exportDir":"",
+  "name":"sndProxMineBeep",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndProxMineBeep.wav",
+  "volume":1.0,
+}

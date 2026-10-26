@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"send_to_hud_queue",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"send_to_hud_queue",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

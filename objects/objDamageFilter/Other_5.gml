@@ -1,0 +1,1 @@
+if objPlayer.dead == true then instance_destroy(self);

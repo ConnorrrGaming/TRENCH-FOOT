@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sprEnemyMortallyWoundedDeath",
   "bboxMode":0,
   "bbox_bottom":21,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"04b1dc32-caf2-401f-ad8b-f3c02269ba4f","name":"04b1dc32-caf2-401f-ad8b-f3c02269ba4f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"73d728b4-2cbc-4235-9778-692f97557a2e","name":"73d728b4-2cbc-4235-9778-692f97557a2e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0dcc1853-e5d7-4547-a919-49675916110e","name":"0dcc1853-e5d7-4547-a919-49675916110e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"02aeb712-6832-4ef7-9227-1c803d6c3b84","name":"02aeb712-6832-4ef7-9227-1c803d6c3b84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cb0fd713-11b5-4390-a29a-6230224d3c7c","name":"cb0fd713-11b5-4390-a29a-6230224d3c7c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"04b1dc32-caf2-401f-ad8b-f3c02269ba4f","name":"04b1dc32-caf2-401f-ad8b-f3c02269ba4f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"73d728b4-2cbc-4235-9778-692f97557a2e","name":"73d728b4-2cbc-4235-9778-692f97557a2e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0dcc1853-e5d7-4547-a919-49675916110e","name":"0dcc1853-e5d7-4547-a919-49675916110e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"02aeb712-6832-4ef7-9227-1c803d6c3b84","name":"02aeb712-6832-4ef7-9227-1c803d6c3b84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb0fd713-11b5-4390-a29a-6230224d3c7c","name":"cb0fd713-11b5-4390-a29a-6230224d3c7c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -72,21 +72,11 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04b1dc32-caf2-401f-ad8b-f3c02269ba4f","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a6f0ed4-eee2-44da-9e3a-a5e443da2b68","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"73d728b4-2cbc-4235-9778-692f97557a2e","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4ee73d33-431f-4801-933c-9aae275c9e96","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0dcc1853-e5d7-4547-a919-49675916110e","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a381ee6d-9a89-48fe-a1f7-304da4f62849","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02aeb712-6832-4ef7-9227-1c803d6c3b84","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"34d68387-d5b8-4168-885c-830725e9b064","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb0fd713-11b5-4390-a29a-6230224d3c7c","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"49f11998-205f-4949-aeb1-2575950a7407","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"04b1dc32-caf2-401f-ad8b-f3c02269ba4f","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6a6f0ed4-eee2-44da-9e3a-a5e443da2b68","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"73d728b4-2cbc-4235-9778-692f97557a2e","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4ee73d33-431f-4801-933c-9aae275c9e96","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0dcc1853-e5d7-4547-a919-49675916110e","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a381ee6d-9a89-48fe-a1f7-304da4f62849","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"02aeb712-6832-4ef7-9227-1c803d6c3b84","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"34d68387-d5b8-4168-885c-830725e9b064","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb0fd713-11b5-4390-a29a-6230224d3c7c","path":"sprites/sprEnemyMortallyWoundedDeath/sprEnemyMortallyWoundedDeath.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"49f11998-205f-4949-aeb1-2575950a7407","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"sndDamage3",
   "audioGroupId":{
     "name":"agVoices",
     "path":"audiogroups/agVoices",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.283991,
+  "duration":0.28399092,
+  "exportDir":"",
   "name":"sndDamage3",
   "parent":{
     "name":"Sounds",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sndDamage3.WAV",
-  "type":0,
   "volume":1.0,
 }

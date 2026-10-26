@@ -1,7 +1,7 @@
 function npc_patrol()
 {
 	spotted = false;
-	//show_debug_message("Don't mind me, just chilling here :)");
+	////("Don't mind me, just chilling here :)");
 	if path_started != true
 	{
 		path_start(patrol_path,patrol_speed,patrol_path_endaction,0);

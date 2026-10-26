@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sprCivilianSuicideBomberExplosion",
   "bboxMode":2,
   "bbox_bottom":319,
@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2bfff42c-0e26-4e4f-90e3-bd68a8f41a8a","name":"2bfff42c-0e26-4e4f-90e3-bd68a8f41a8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1104ffce-d5d7-4bc1-9eb7-2dc00cb6920e","name":"1104ffce-d5d7-4bc1-9eb7-2dc00cb6920e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"05af309f-a350-419f-96cb-bcfb6d61f6fc","name":"05af309f-a350-419f-96cb-bcfb6d61f6fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3548b9b8-df2a-43c5-bb29-1aae307ed85b","name":"3548b9b8-df2a-43c5-bb29-1aae307ed85b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ffc42503-a45e-4531-ab99-33a56ec466e7","name":"ffc42503-a45e-4531-ab99-33a56ec466e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"196168f7-dc7b-4e2e-8d37-9abb5dae9aaa","name":"196168f7-dc7b-4e2e-8d37-9abb5dae9aaa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"db3a75c3-2f77-44bc-b6be-e43ea9098226","name":"db3a75c3-2f77-44bc-b6be-e43ea9098226","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3c374d78-6805-4538-8378-b481557ef4d4","name":"3c374d78-6805-4538-8378-b481557ef4d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4218b821-9543-473e-a293-696a33b0b9c1","name":"4218b821-9543-473e-a293-696a33b0b9c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2bfff42c-0e26-4e4f-90e3-bd68a8f41a8a","name":"2bfff42c-0e26-4e4f-90e3-bd68a8f41a8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1104ffce-d5d7-4bc1-9eb7-2dc00cb6920e","name":"1104ffce-d5d7-4bc1-9eb7-2dc00cb6920e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05af309f-a350-419f-96cb-bcfb6d61f6fc","name":"05af309f-a350-419f-96cb-bcfb6d61f6fc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3548b9b8-df2a-43c5-bb29-1aae307ed85b","name":"3548b9b8-df2a-43c5-bb29-1aae307ed85b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ffc42503-a45e-4531-ab99-33a56ec466e7","name":"ffc42503-a45e-4531-ab99-33a56ec466e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"196168f7-dc7b-4e2e-8d37-9abb5dae9aaa","name":"196168f7-dc7b-4e2e-8d37-9abb5dae9aaa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"db3a75c3-2f77-44bc-b6be-e43ea9098226","name":"db3a75c3-2f77-44bc-b6be-e43ea9098226","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3c374d78-6805-4538-8378-b481557ef4d4","name":"3c374d78-6805-4538-8378-b481557ef4d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4218b821-9543-473e-a293-696a33b0b9c1","name":"4218b821-9543-473e-a293-696a33b0b9c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,33 +76,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2bfff42c-0e26-4e4f-90e3-bd68a8f41a8a","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ebedfabc-fbd8-42ee-8360-aae8aefbcb60","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1104ffce-d5d7-4bc1-9eb7-2dc00cb6920e","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3224dbcc-72a3-4e00-b3de-34e988854af8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05af309f-a350-419f-96cb-bcfb6d61f6fc","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e11429af-4eff-4f65-bfcb-8f7150a2de57","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3548b9b8-df2a-43c5-bb29-1aae307ed85b","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"211aa864-2e7a-499a-9c6d-c6ce52e5f5cd","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffc42503-a45e-4531-ab99-33a56ec466e7","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a41aceaf-9e41-4e36-88a0-69f8d434f9dc","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"196168f7-dc7b-4e2e-8d37-9abb5dae9aaa","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8bb2483d-a210-4817-a699-bde8161f4c51","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"db3a75c3-2f77-44bc-b6be-e43ea9098226","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5499504d-d2b8-4207-be1a-a1f5ae809094","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c374d78-6805-4538-8378-b481557ef4d4","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0b15989f-0368-4585-973e-38fa86f95207","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4218b821-9543-473e-a293-696a33b0b9c1","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"65886d72-91c1-4ce6-9056-24cd4930adf4","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2bfff42c-0e26-4e4f-90e3-bd68a8f41a8a","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ebedfabc-fbd8-42ee-8360-aae8aefbcb60","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1104ffce-d5d7-4bc1-9eb7-2dc00cb6920e","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3224dbcc-72a3-4e00-b3de-34e988854af8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"05af309f-a350-419f-96cb-bcfb6d61f6fc","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e11429af-4eff-4f65-bfcb-8f7150a2de57","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3548b9b8-df2a-43c5-bb29-1aae307ed85b","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"211aa864-2e7a-499a-9c6d-c6ce52e5f5cd","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffc42503-a45e-4531-ab99-33a56ec466e7","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a41aceaf-9e41-4e36-88a0-69f8d434f9dc","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"196168f7-dc7b-4e2e-8d37-9abb5dae9aaa","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8bb2483d-a210-4817-a699-bde8161f4c51","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"db3a75c3-2f77-44bc-b6be-e43ea9098226","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5499504d-d2b8-4207-be1a-a1f5ae809094","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c374d78-6805-4538-8378-b481557ef4d4","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0b15989f-0368-4585-973e-38fa86f95207","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4218b821-9543-473e-a293-696a33b0b9c1","path":"sprites/sprCivilianSuicideBomberExplosion/sprCivilianSuicideBomberExplosion.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"65886d72-91c1-4ce6-9056-24cd4930adf4","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

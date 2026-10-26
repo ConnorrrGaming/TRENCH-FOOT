@@ -1,0 +1,1 @@
+screen_fade(false,.1,1,c_black);

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"grant_ammo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"grant_ammo",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,8 +1,25 @@
-show_debug_message("Initialisation starting:\nPlease wait...");
+//("Initialisation starting:\nPlease wait...");
 global.noise = undefined;
 global.noise_target = undefined;
 
+global.fade = instance_create_depth(x,y,-1,objFade);
+
+global.version_number = "1.0.0";
+
 global.blood_fade = false;
+
+global.next_area = undefined;
+
+global.safe_room = false;
+
+global.secrets = 0;
+
+global.stats = instance_create_depth(x,y,0,objStats);
+
+global.hud_queue = [];
+
+
+debug_overlay = false;
 
 audio_group_load(agMusic);
 audio_group_load(agSoundEffects);
@@ -20,6 +37,6 @@ for (var i = 0; i < _count; i ++)
     time_source_destroy(_children[i]);
 }
 
-show_debug_message("Initialisation complete!\nNow loading Trench Foot...");
+//("Initialisation complete!\nNow loading Trench Foot...");
 
 room_goto_next();

@@ -11,6 +11,8 @@ switch(explode)
 	break;
 	
 	case true:
-	image_speed = 2;
+	image_speed = 4;
+	audio_stop_sound(sndProxMineBeep);
+	audio_play_sound(sndProxMineBeep,0,false);
 	break;
 }

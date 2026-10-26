@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sprEnemyDisguiseWeaponPullout",
   "bboxMode":0,
   "bbox_bottom":21,
@@ -12,13 +12,13 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dd9fc99c-c1b1-451c-ba00-aeea726767e8","name":"dd9fc99c-c1b1-451c-ba00-aeea726767e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"14abd24d-5691-4229-a6b5-45bd50e697c6","name":"14abd24d-5691-4229-a6b5-45bd50e697c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"01db009c-78fe-4685-96f9-1dd717425683","name":"01db009c-78fe-4685-96f9-1dd717425683","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"61d1376c-ac1e-4b87-9fc3-16b1aa3bdcef","name":"61d1376c-ac1e-4b87-9fc3-16b1aa3bdcef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1b10a5de-34da-45d7-aec9-7cb40f50ce65","name":"1b10a5de-34da-45d7-aec9-7cb40f50ce65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"80f77d63-0e92-41df-8062-c801d4debf66","name":"80f77d63-0e92-41df-8062-c801d4debf66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f02485c0-833c-4067-ac18-d6f4e6b68956","name":"f02485c0-833c-4067-ac18-d6f4e6b68956","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dd9fc99c-c1b1-451c-ba00-aeea726767e8","name":"dd9fc99c-c1b1-451c-ba00-aeea726767e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"14abd24d-5691-4229-a6b5-45bd50e697c6","name":"14abd24d-5691-4229-a6b5-45bd50e697c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"01db009c-78fe-4685-96f9-1dd717425683","name":"01db009c-78fe-4685-96f9-1dd717425683","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"61d1376c-ac1e-4b87-9fc3-16b1aa3bdcef","name":"61d1376c-ac1e-4b87-9fc3-16b1aa3bdcef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1b10a5de-34da-45d7-aec9-7cb40f50ce65","name":"1b10a5de-34da-45d7-aec9-7cb40f50ce65","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"80f77d63-0e92-41df-8062-c801d4debf66","name":"80f77d63-0e92-41df-8062-c801d4debf66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f02485c0-833c-4067-ac18-d6f4e6b68956","name":"f02485c0-833c-4067-ac18-d6f4e6b68956","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -74,27 +74,13 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd9fc99c-c1b1-451c-ba00-aeea726767e8","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0345e195-00b2-4a70-adfe-ed878dad45e7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"14abd24d-5691-4229-a6b5-45bd50e697c6","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"091b5410-33f7-43f1-930c-045604ace069","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"01db009c-78fe-4685-96f9-1dd717425683","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"746fbfb2-8037-46fc-a408-4f2ff0cdb179","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"61d1376c-ac1e-4b87-9fc3-16b1aa3bdcef","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4c8e2b7a-2e2c-404d-bd4b-0353d3767e10","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b10a5de-34da-45d7-aec9-7cb40f50ce65","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1b263fdd-4bbe-4c9b-b041-d5f0b4436e9b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"80f77d63-0e92-41df-8062-c801d4debf66","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"35a47843-0b70-4daa-95e2-7cb9fd09c93d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f02485c0-833c-4067-ac18-d6f4e6b68956","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"87303c8c-0849-4672-840c-30abe6aae64c","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd9fc99c-c1b1-451c-ba00-aeea726767e8","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0345e195-00b2-4a70-adfe-ed878dad45e7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"14abd24d-5691-4229-a6b5-45bd50e697c6","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"091b5410-33f7-43f1-930c-045604ace069","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"01db009c-78fe-4685-96f9-1dd717425683","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"746fbfb2-8037-46fc-a408-4f2ff0cdb179","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"61d1376c-ac1e-4b87-9fc3-16b1aa3bdcef","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4c8e2b7a-2e2c-404d-bd4b-0353d3767e10","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b10a5de-34da-45d7-aec9-7cb40f50ce65","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1b263fdd-4bbe-4c9b-b041-d5f0b4436e9b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"80f77d63-0e92-41df-8062-c801d4debf66","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"35a47843-0b70-4daa-95e2-7cb9fd09c93d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f02485c0-833c-4067-ac18-d6f4e6b68956","path":"sprites/sprEnemyDisguiseWeaponPullout/sprEnemyDisguiseWeaponPullout.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"87303c8c-0849-4672-840c-30abe6aae64c","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

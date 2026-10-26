@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"create_secondary_stored_weapon",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"create_secondary_stored_weapon",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
